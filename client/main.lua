@@ -43,7 +43,7 @@ Citizen.CreateThread(function()
     end)
 
     RegisterCommand("testprogbar", function()
-        exports["zerio-progressbar"]:OpenProgressBar({
+        exports["zerio-progressbars"]:OpenProgressBar({
             allowcancel = true,
             time = 5,
             label = "Test",
